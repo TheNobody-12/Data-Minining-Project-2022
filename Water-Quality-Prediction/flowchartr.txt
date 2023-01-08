@@ -1,0 +1,16 @@
+1. data collection - cpcb
+2. data preprocessing - 
+	identifying missing values
+	replacing string values with nan
+	filling missing values with mean of each column
+	averaging 'min' and 'max' columns into  new single parameter column
+	fitting the data values into weighted rating cycle
+3.calculated wqi using rating scale values and weights with respective parameters
+4.applying both classification and regression models on preprocessed data
+  -classification
+	+ feature selection pipeline
+  	+ splitting dataset into train and test 
+	+ applying smote
+5. -predicting wqi value using regression model
+   - classifying the dataset into potable and non-potable water
+6.Model evaluation
